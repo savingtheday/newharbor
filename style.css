@@ -1,5 +1,5 @@
 html{
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
   font-family: 'Work Sans', sans-serif;
     background: url('images/sailboats.jpeg') no-repeat fixed bottom center;
@@ -20,7 +20,7 @@ a{
 header{
   text-align: center;
   font-size: 1.5em;
-  height: 3.5em;
+  height: 2em;
   position: fixed;
   background-color: black;
   width: 100%;
@@ -50,27 +50,44 @@ header{
 
 
 #splash{
-  height: 30em;
+  height: 5em;
   text-align: center;
-/*  background: url('images/sailboats.jpeg') no-repeat fixed bottom center;
-  background-size: cover;*/
+  font-family: 'Merriweather', serif;
+  font-size: 4em;
+  padding-top: 3em;
 }
 
-/*.logoCircle{
-  border-radius: 50%;
-  width: 8em;
-  height: 8em;
-  position: relative;
-  top: -8em;
-  background: black url('images/nhdlogowhite.png') no-repeat center;
-}*/
+.blurb{
+  font-family: 'Work Sans', sans-serif;
+  font-size: .5em;
+  font-weight: 200;
+
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  margin-top: 0;
+}
 
 .content{
-  padding: 3em 10em;
   text-align: left;
+  margin: 2%;
+  padding: 2%;
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+.contentFull{
+  text-align: left;
+  margin: 2%;
+  padding: 2%;
+  width: 92%;
+  display: block;
+  clear: left;
 }
 
 .white{
   color: white;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
